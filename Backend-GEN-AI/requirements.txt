@@ -1,0 +1,15 @@
+langchain
+langchain_community
+python-dotenv
+langchain-google-genai
+pandas
+langchain-astradb
+streamlit
+tiktoken
+langgraph
+langchainhub
+pypdf
+google-cloud-vision
+easyocr
+
+-e .

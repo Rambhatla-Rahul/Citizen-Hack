@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#navbar{
+  box-shadow: 7px 10px 5px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(120deg, #bae7c8, #faf9e1);
+}
+main,html{
+  background-image: linear-gradient(120deg, #f1eebc, #faf9e1);
+}
+
+
+#upload-btn{
+  border-radius: 10px 20px;
+  padding: 10px 30px;
+}
+#upload-btn:hover{
+  transform: translateY(-10px);
+  transition: transform 0.3s ease-in-out;
+}
+#generate-btn{
+  border-radius: 20px 10px;
+  padding: 10px 30px;
+}
+#generate-btn:hover{
+  transform: translateY(-10px);
+  transition: transform 0.3s ease-in-out;
+}
+#generate-btn,#upload-btn:hover{
+  cursor: pointer;
+  box-shadow: 7px 10px 5px rgba(0, 0, 0, 0.15);
+}
+
+#chat-icon-container{
+  background-image: radial-gradient(#bebc8f, #ffffff);
+  background-image: radial-gradient(circle, #bebc8f, #f1eebc);  
+  
+}
+#chat-icon-container:hover{
+  cursor: pointer;
+  transform: translateY(-15px);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 6px 9px 5px rgba(70, 69, 59, 0.5);
+
+}
+
+#analysis-container{
+  border-radius: 40px;
+  background-image: linear-gradient(120deg, #dddddd, rgb(231, 211, 211));
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 6px 9px 10px rgba(70, 69, 59, 0.5);
+}
+
+
+#how-to-use-img{
+  min-width: 1000px;
+  object-fit: cover;
+}
+
+.navbarElements{
+  font-family: Nunito Sans;
+}
+
+#nav-home:hover,#nav-patient:hover{
+  transform: translateY(-4px);
+  text-shadow: 6px 9px 5px rgba(0, 0, 0, 0.5); 
+}

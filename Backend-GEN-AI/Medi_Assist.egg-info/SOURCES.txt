@@ -1,0 +1,5 @@
+setup.py
+Medi_Assist.egg-info/PKG-INFO
+Medi_Assist.egg-info/SOURCES.txt
+Medi_Assist.egg-info/dependency_links.txt
+Medi_Assist.egg-info/top_level.txt
